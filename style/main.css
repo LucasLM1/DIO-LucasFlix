@@ -75,11 +75,11 @@ header nav a:hover{
     background-color: rgba(0,0,0,.50);
     border:none;
     color: white;
-
+    outline: none;
     padding:15px 30px;
     margin-right: 15px;
     font-size: 12px;
-
+    
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -113,3 +113,36 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top:5px;
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover a{
+    color: #000;
+}
+
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.356));
+}
+
+.box1{
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.devLM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgRedes {
+    width: 50px;
+    padding: 10px;
+}
+
